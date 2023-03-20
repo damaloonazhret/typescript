@@ -37,12 +37,17 @@ const response2: ServerResponseType<PhotoType> = {
 const initial = {
     age: 10,
     name: 'Dimych',
-    photo: null as PhotoType //воспринимай null как ффототайп
+    photo: null as PhotoType | null //воспринимай null как ффототайп
 }
 
 type StateType = typeof initial // создали клон целого initial
 
 const reducer = (state = initial, action: any) => {
+
+    state.photo = {
+        large: '',
+        small: '',
+    }
     state.age = 12
     return state
 }
