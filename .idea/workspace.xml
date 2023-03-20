@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8206b3bd-c7e6-4170-8c08-5d695b882e28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/inheritance.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/BasicTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Classes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Enums.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Functions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Generic.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Inheritance.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/NamespacesModules.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Objects.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/TypeInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduls.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/BasicTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/BasicTypes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +48,10 @@
       <workItem from="1679131612624" duration="694000" />
       <workItem from="1679132417102" duration="49000" />
       <workItem from="1679135389345" duration="9174000" />
-      <workItem from="1679166647177" duration="301000" />
+      <workItem from="1679166647177" duration="977000" />
+      <workItem from="1679233421816" duration="512000" />
+      <workItem from="1679238356581" duration="3862000" />
+      <workItem from="1679302425112" duration="599000" />
     </task>
     <servers />
   </component>

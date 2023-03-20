@@ -1,4 +1,4 @@
-// Data types in JavaScript
+// Data types in JavaScript основные типы данных
 - number
 - string
 - boolean
@@ -12,7 +12,7 @@ var num = 42;		// number
 num = 'hello';		// string
 num = false;		// boolean
 
-// Defining types using operator typeof
+// Defining types using operator typeof так делается в JS
 typeof 42;          // "number"
 typeof 'str';       // "string"
 typeof true;        // "boolean"
@@ -23,11 +23,11 @@ typeof undefined;   // "undefined"
 typeof Symbol();    // "symbol"
 
 // const
-const num = 42;
-num = 'hello';	// Uncaught TypeError: Assignment to constant variable
+const num = 42; //нельзя изменить
+num = 'hello';	// Uncaught TypeErr or: Assignment to constant variable
 
 // let
-let num = 42;
+let num = 42; //можно переопреледить
 num = 'hello';	// No errors
 
 // Boolean Type
@@ -36,7 +36,7 @@ let isCompleted: boolean = false;
 isCompleted = 42;     // Type '42' is not assignable to type 'boolean'
 isCompleted = '42';   // Type ’"42"' is not assignable to type 'boolean'
 
-isCompleted = true;
+isCompleted = true; // only this
 
 // Number Type
 const decimal: number = 6;
@@ -61,7 +61,7 @@ const u: undefined = undefined;
 const n: null = null;
 
 // Void Type
-// For function result:
+// For function result: для определения отсутствующих типов
 const greetUser = (): void => {
     alert("Hello, nice to see you!");
 };
@@ -72,7 +72,7 @@ const greetUser: void = () => {
     alert("Hello, nice to see you!");
 };
 
-// Array Type
+// Array Type Массив
 let list: number[] = [1, 2, 3];
 
 let list: Array<number> = [1, 2, 3];	// Generic type
@@ -89,7 +89,7 @@ let y: [string, number] = ["goodbuy", 42];
 x = [10, "hello"]; // Type 'string' is not assignable to type 'number'
 
 // Any Type
-// Any type for array
+// Any type for array тип данных можно свободно менять, но это очень ненадежно
 let y: [any, any] = ["goodbuy", 42];
 let z: Array<any> = [10, "hello"];
 
@@ -101,7 +101,7 @@ notSure = true;		// boolean
 notSure = 42;		// number
 notSure = "hello";	// string
 
-// Enum Type
+// Enum Type для задания имен набору численных значений
 enum Directions {
     Up,
     Down,
@@ -140,7 +140,7 @@ const infiniteLoop = (): never => {
     }
 };
 
-// Object Type
+// Object Type для определения объекта или не примитива
 const create = (o: object | null): void => { };
 
 create(1);		// Argument of type '1' is not assignable to parameter of type 'object | null'
@@ -154,7 +154,7 @@ id = 10;	// number is valid
 id = '42';	// string is valid
 id = true;	// Type 'true' is not assignable to type 'string | number'
 
-// Type
+// Type можно задавать пользовательские типы
 type Name = string;	// Custom type creation
 
 let id: Name;	// Apply custom type
